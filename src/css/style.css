@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(104, 106, 249);
+    min-width: 800px; 
+    min-height: 600px;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.container {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 400px;
+
+}
+
+.field {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    cursor: url('../img/axe.png'), pointer;
+}
+
+.cellField {
+    display: flex;
+    justify-content: center;
+    border-color:rgb(104, 106, 249);
+    border-width: 5px;
+    border-style: solid;
+    
+}
+
+.info {
+  margin-top: 20px;
+}
+
+
+
+
