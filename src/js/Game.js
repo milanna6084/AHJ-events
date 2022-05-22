@@ -17,7 +17,8 @@ export default class Game {
 
   onClick(target) {
     if (target.classList.contains('person')) {
-      target.remove();
+      const catchTarget = target;
+      catchTarget.style.visibility = 'hidden';
 
       const scores = +this.scores.textContent + 1;
 
